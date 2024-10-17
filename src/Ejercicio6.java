@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EjercicioSeis {
+public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int sumaTotal = 0;

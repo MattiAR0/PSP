@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EjercicioCuatro {
+public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduzca el primer numero: ");
