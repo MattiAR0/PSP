@@ -1,18 +1,17 @@
+package repaso;
+
 import java.util.Scanner;
 
-public class Ejercicio18 {
+public class Ejercicio17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce una contraseña: ");
         String contraseña = sc.nextLine();
 
-        System.out.println("Repite la contraseña: ");
-        String repetirContraseña = sc.nextLine();
-
-        if (contraseña.equals(repetirContraseña) && validarContraseña(contraseña)) {
-            System.out.println("Contraseña válida y coinciden.");
+        if (validarContraseña(contraseña)) {
+            System.out.println("La contraseña es válida.");
         } else {
-            System.out.println("Las contraseñas no coinciden o no es válida.");
+            System.out.println("La contraseña no cumple los requisitos.");
         }
     }
 

@@ -1,3 +1,5 @@
+package repaso;
+
 public class Ejercicio28 {
     public static void main(String[] args) {
         Vehiculo[] vehiculos = new Vehiculo[5];

@@ -1,7 +1,9 @@
+package repaso;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ejercicio22 {
+public class Ejercicio23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<String> nombres = new ArrayList<>();
@@ -16,8 +18,8 @@ public class Ejercicio22 {
         } while (!nombre.equals("0"));
 
         System.out.println("Nombres introducidos:");
-        for (String n : nombres) {
-            System.out.println(n);
+        for (int i = 0; i < nombres.size(); i++) {
+            System.out.println((i + 1) + ". " + nombres.get(i));
         }
     }
 }

@@ -1,3 +1,5 @@
+package repaso;
+
 public class Vehiculo {
     String tipo;
     String marca;

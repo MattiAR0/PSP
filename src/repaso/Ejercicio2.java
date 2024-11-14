@@ -1,3 +1,5 @@
+package repaso;
+
 import java.util.Scanner;
 
 public class Ejercicio2 {
